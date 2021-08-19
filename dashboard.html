@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <body id="body-pd">
+   
+    <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+            <div> 
+                <div class="nav_list"> <a href="#" class="nav_link"> <i class='bx bx-grid-alt nav_icon'></i> <span class="nav_name"></span> </a> 
+                    <a href="#" class="nav_link active"> <i class='bx bxs-inbox nav_icon'></i> <span class="nav_name"></span> </a> 
+                    <a href="#" class="nav_link"> <i class='bx bx-group nav_icon'></i> <span class="nav_name"></span> </a> 
+                    <a href="#" class="nav_link"> <i class='bx bx-line-chart-down nav_icon'></i> <span class="nav_name"></span> </a> 
+                    
+            </div> 
+        </nav>
+
+
+
+    </div>
+    
+
+     <div id="container">
+    <aside>
+        <header>
+            <h5><i class='bx bx-menu nav_icon'><b> Conversations </b> </i><i style="float: right;" class='bx bx-refresh nav_icon'></i></h5> 
+
+
+        </header>
+        <ul>
+            <li>
+                <div class="item">
+                    <input type="checkbox" id="a">
+                    <label for="a">Amit RG <p style="float:right">10 mins</p></label>
+                    <p>Facebook DM<br><b>Great Product</b><br>Hey ! Do you have this....</p>
+                    
+                </div>
+            </li>
+             <li>
+                <div class="item">
+                    <input type="checkbox" id="a">
+                    <label for="a">Amit RG<p style="float:right">10 mins</p> </label>
+
+                    <p>Facebook DM<br><b>Great Product</b><br>Hey ! Do you have this....</p>
+                    
+                </div>
+            </li>
+             <li>
+               <div class="item">
+                    <input type="checkbox" id="a">
+                    <label for="a">Amit RG<p style="float:right">10 mins</p> </label>
+
+                    <p>Facebook DM<br><b>Great Product</b><br>Hey ! Do you have this....</p>
+                    
+                </div>
+                    
+                
+            </li>
+        </ul>
+    </aside>
+    <main>
+        <header>
+                <h3 id="name"><b>Amit RG</b></h3> 
+        </header>
+        <ul id="chat">
+            
+            <li class="you">
+                <div class="message">
+                    OK
+                </div>
+                <div class="entete">
+                   
+                    <h3>10:12AM, Today</h3>
+                    <h4>Amit</h4> 
+                </div>
+            </li>
+            
+            <li class="me"> 
+                <div class="message">
+                    OK
+                </div>
+                <div class="entete">
+
+                    <h3>10:12AM, Today</h3>
+                    <h4>You</h4>
+                    <span class="status blue"></span>
+                </div>
+            </li>
+
+        </ul>
+        <input type="text" id="send" value=" Message  Amit  RG"></input>
+        
+    </main>
+</div>
+
+<div class="user">
+    <div  id="profile">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjidvk3DPBtaN3SXhqTDVhzve_yJEhYIE9xQ&usqp=CAU">
+        <h4>Amit RG</h4>
+        <p>Offline</p>
+        <button><h6><i class='bx bx-phone-call nav_icon'></i>Call</h6></button>
+        <button><h6><i class='bx bx-edit-alt nav_icon'></i>Profile</h6></button>
+    </div>
+    <div id="details">
+        <h5>Customer Details</h5>
+        <p>Email:<b>amit@richpanel.com</b></p>
+        <p>First Name:<b>Amit</b></p>
+        <p>Last Name:<b>RG</b></p>
+        <a href="#">View more details</a>
+    </div>
+</div>
+    
+        
+<script type="text/javascript" src="dashboard.js"></script>
+</body>
+</html>
